@@ -1,4 +1,4 @@
-module github.com/minio/selfupdate
+module github.com/lgcorzo/selfupdate
 
 go 1.14
 
