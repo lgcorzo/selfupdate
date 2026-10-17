@@ -21,7 +21,8 @@ jobs:
       - name: Set up Go
         uses: actions/setup-go@v5
         with:
-          go-version: 1.24.0 # Same as 'go x.y.z' in go.mod
+          go-version: '1.26.x'
+          check-latest: true
           cache: false
       - name: Get official govulncheck
         shell: bash
